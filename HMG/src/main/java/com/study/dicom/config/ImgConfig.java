@@ -6,13 +6,13 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class ImgConfig implements WebMvcConfigurer{
-	
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/mhg/**")
 //		.addResourceLocations("file:///C:/mhg/");
-//		mac
-		.addResourceLocations("file:///Users/SOO/Desktop/file001/MHGimage/");
+		
+		//맥북 경로설정
+        .addResourceLocations("file:///Users/SOO/Desktop/file001/MHGimage/");
 		
 	}
 }

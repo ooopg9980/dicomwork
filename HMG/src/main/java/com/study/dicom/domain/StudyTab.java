@@ -1,6 +1,5 @@
 package com.study.dicom.domain;
 
-
 import java.math.BigDecimal;
 
 import jakarta.persistence.Column;
